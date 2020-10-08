@@ -1,5 +1,11 @@
 ## Number systems
 
+- [Number systems](#number-systems)
+  - [Different number bases](#different-number-bases)
+  - [General method for base conversion](#general-method-for-base-conversion)
+  - [Decimal to binary conversion:](#decimal-to-binary-conversion)
+  - [Python built-in functions:](#python-built-in-functions)
+
 ### Different number bases
 
 | Base name   | Description           |

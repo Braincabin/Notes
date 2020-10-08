@@ -1,8 +1,11 @@
-- [Output](#output)
-- [Input](#input)
-  - [Recieve input](#recieve-input)
-  - [Recieve number input](#recieve-number-input)
-  - [Handling invalid number input](#handling-invalid-number-input)
+## IO in python
+
+- [IO in python](#io-in-python)
+  - [Output](#output)
+  - [Input](#input)
+    - [Recieve input](#recieve-input)
+    - [Recieve number input](#recieve-number-input)
+    - [Handling invalid number input](#handling-invalid-number-input)
 
 
 ### Output
