@@ -1,18 +1,55 @@
 ## IO in python
 
 - [IO in python](#io-in-python)
-  - [Output](#output)
-  - [Input](#input)
-    - [Recieve input](#recieve-input)
-    - [Recieve number input](#recieve-number-input)
-    - [Handling invalid number input](#handling-invalid-number-input)
+	- [Output](#output)
+		- [Simple string](#simple-string)
+		- [Multiple arguments to print](#multiple-arguments-to-print)
+		- [Seperator when given multiple arguments](#seperator-when-given-multiple-arguments)
+		- [Trailing character](#trailing-character)
+	- [Input](#input)
+		- [Recieve input](#recieve-input)
+		- [Recieve number input](#recieve-number-input)
+		- [Handling invalid number input](#handling-invalid-number-input)
 
 
 ### Output
 
+#### Simple string
+To simply output a string:
 ```python
 print("You can put any text here!")
 ```
+
+#### Multiple arguments to print
+Passing multiple arguments to `print` will be print with a seperator:
+```python
+print("Hello,", name, "! You are", age, "years old")
+```
+
+#### Seperator when given multiple arguments
+By default, all the arguments passed to `print` will be seperated by a space (' ').
+To change this default space character:
+```python
+print("First", "Second", "Third", "Fourth", sep="\n") # The sep argument is the seperator used
+```
+Output:
+> First
+> Second
+> Third
+> Fourth
+
+**Note:** \n is just the *newline* character
+
+#### Trailing character
+By default `print` will add a newline to the end everytime you call it, if you don't want a newline character at the end:
+```python
+print("Loading", end="") # end is the argument to change the default trailing character 
+print("...", end="")
+print("...", end="")
+```
+
+Output:
+> Loading......
 
 ### Input
 

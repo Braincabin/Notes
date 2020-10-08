@@ -3,8 +3,8 @@
 - [Number systems](#number-systems)
   - [Different number bases](#different-number-bases)
   - [General method for base conversion](#general-method-for-base-conversion)
-  - [Decimal to binary conversion:](#decimal-to-binary-conversion)
-  - [Python built-in functions:](#python-built-in-functions)
+  - [Decimal to binary conversion](#decimal-to-binary-conversion)
+  - [Python built-in functions](#python-built-in-functions)
 
 ### Different number bases
 
@@ -31,7 +31,7 @@
 -   The number's value will be
     f<sub>1</sub>v<sub>1</sub> + f<sub>2</sub>v<sub>2</sub> ... for all digits
 
-### Decimal to binary conversion:
+### Decimal to binary conversion
 
 | Position | Value |
 | -------- | ----- |
@@ -51,7 +51,7 @@
 
 ---
 
-### Python built-in functions:
+### Python built-in functions
 
 | Function name | Usage                                      |
 | ------------- | ------------------------------------------ |
