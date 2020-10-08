@@ -1,3 +1,10 @@
+- [Output](#output)
+- [Input](#input)
+  - [Recieve input](#recieve-input)
+  - [Recieve number input](#recieve-number-input)
+  - [Handling invalid number input](#handling-invalid-number-input)
+
+
 ### Output
 
 ```python
@@ -19,6 +26,8 @@ name = input("Please enter your name: ")
 -   `input` **always** returns a string
 -   The input reading in stopped once the `Enter` key is pressed
 
+---
+
 #### Recieve number input
 To recieve a number as input, you can pipe `input` into `int` like so:
 
@@ -30,7 +39,7 @@ age = int(input("Please enter your age: "))
 
 -   If the input from the user was not a valid number, this will throw an error.
 
-
+---
 
 #### Handling invalid number input
 To handle any invalid input you can use:
