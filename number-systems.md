@@ -1,3 +1,5 @@
+# Number systems
+---
 ### Different number bases
 
 | Base name   | Description           |
@@ -41,6 +43,8 @@ Position	|Value
  - This table applies for *signed 8-bit integer*
 
 
+---
+
 ### Python built-in functions:
 
 Function name	| Usage
@@ -56,5 +60,5 @@ To convert a number of say base 8 (Octa-decimal) to decimal (base 10):
 print(int('123', 8))
 ```
 This will output 83.
-The first arguement is the number (as a string) in any base and the second optional arguement is the base. 
+The first argument is the number (as a string) in any base and the second optional argument is the base. 
 Without any second arguement `int` interprets the string as a base 10 number.
