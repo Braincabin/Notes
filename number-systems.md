@@ -48,3 +48,13 @@ Function name	| Usage
 bin		| Function to convert decimal to binary
 oct		| Function to convert decimal to octadecimal
 hex		| Function to convert decimal to hexadecimal
+
+**Note:** Python's int class has built-in support for converting all bases to decimal.
+
+To convert a number of say base 8 (Octa-decimal) to decimal (base 10):
+```python
+print(int('123', 8))
+```
+This will output 83.
+The first arguement is the number (as a string) in any base and the second optional arguement is the base. 
+Without any second arguement `int` interprets the string as a base 10 number.
