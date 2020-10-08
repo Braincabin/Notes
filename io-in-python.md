@@ -33,10 +33,10 @@ To change this default space character:
 print("First", "Second", "Third", "Fourth", sep="\n") # The sep argument is the seperator used
 ```
 Output:
-> First
-> Second
-> Third
-> Fourth
+> First <br>
+> Second <br>
+> Third <br>
+> Fourth <br>
 
 **Note:** \n is just the *newline* character
 
