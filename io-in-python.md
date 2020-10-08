@@ -51,6 +51,8 @@ print("...", end="")
 Output:
 > Loading......
 
+---
+
 ### Input
 
 #### Recieve input

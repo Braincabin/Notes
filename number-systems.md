@@ -49,6 +49,18 @@
 -   Position is _0-indexed_
 -   This table applies for _signed 8-bit integer_
 
+Method:
+-   Start from position 7
+-   If the number is greater that the value of the position
+    -   write a 1 in the answer
+    -   subtract that value from your number
+    -   go to the next position
+-   If the number is smaller
+    -   write a 0 in the answer
+    -   go to the next position
+-   After position 0 your remainder should be 0
+
+
 ---
 
 ### Python built-in functions
