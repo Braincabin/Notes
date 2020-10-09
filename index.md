@@ -7,5 +7,5 @@
     -   [Operators in Python](python/operators-in-python.md)
 
 ## External resources
--   [YouTube picks](youtube-picks.md)
--   [Websites for Python](website-picks.md)
+-   [YouTube picks](external-links/youtube-picks.md)
+-   [Websites for Python](external-links/website-picks.md)
