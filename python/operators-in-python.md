@@ -2,10 +2,12 @@
 
 - [Python operators](#python-operators)
   - [Mathematical operators](#mathematical-operators)
-    - [+ Operator](#ullioperatorliul)
-    - [- Operator](#ullioperatorliul-1)
-    - [* Operator](#ullioperatorliul-2)
-    - [/ Operator](#-operator)
+    - [+ Operator](#+-operator)
+    - [- Operator](#--operator)
+    - [* Operator](#*-operator)
+    - [/ Operator](#/-operator)
+    - [** Operator](#**-operator)
+    - [// Operator](#//-operator)
 
 ### Mathematical operators
 
@@ -99,3 +101,18 @@
 
     path / 'folder'     # Will return PosixPath('/home/user/project/filename/folder')
     ```
+
+#### ** Operator
+
+-   A shortcut for the `pow` function to raise a number to the power of another
+
+    ```python
+    2 ** 4          # returns 16
+    (2j-1) ** 2     # returns (-3-4j)
+    1.5 ** 3        # returns 3.375
+    ```
+
+#### // Operator
+
+-   divides two numbers and returns the **quotient only** without any decimal places
+-   **always** returns an `int`
