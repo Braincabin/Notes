@@ -1,17 +1,18 @@
 ## Python operators 
 
 - [Python operators](#python-operators)
-  - [Mathematical operators](#mathematical-operators)
-    - [+ Operator](#+-operator)
-    - [- Operator](#--operator)
-    - [* Operator](#*-operator)
-    - [/ Operator](#/-operator)
-    - [** Operator](#**-operator)
-    - [// Operator](#//-operator)
+  - [Arithmetic operators](#arithmetic-operators)
+    - [Addition Operator](#addition-operator)
+    - [Subtraction Operator](#subtraction-operator)
+    - [Multiplication Operator](#multiplication-operator)
+    - [Division Operator](#division-operator)
+    - [Exponentiation Operator](#exponentiation-operator)
+    - [Floor division Operator](#floor-division-operator)
+    - [Modulus operator](#modulus-operator)
 
-### Mathematical operators
+### Arithmetic operators
 
-#### + Operator
+#### Addition Operator
 
 -   adds two numbers (`int` or `float`, `complex`) and returns the value
 
@@ -38,7 +39,7 @@
 -   **does not** concatenate a `string` and number
 -   **does not** merge `sets` or `dicts`
 
-#### - Operator
+#### Subtraction Operator
 
 -   subtracts two numbers and returns the value
 
@@ -51,7 +52,7 @@
 
 -   **does not** work on `strings`, `sets` and `dicts`
 
-#### * Operator
+#### Multiplication Operator
 
 -   multiplies two numbers and returns the output
 
@@ -78,7 +79,7 @@
 
 -   **Doesn't work** on `sets`, `lists` and `dicts`
 
-#### / Operator
+#### Division Operator
 
 -   Divides two numbers and **always** returns the quotient as a `float`
 
@@ -102,7 +103,7 @@
     path / 'folder'     # Will return PosixPath('/home/user/project/filename/folder')
     ```
 
-#### ** Operator
+#### Exponentiation Operator
 
 -   A shortcut for the `pow` function to raise a number to the power of another
 
@@ -112,7 +113,17 @@
     1.5 ** 3        # returns 3.375
     ```
 
-#### // Operator
+#### Floor division Operator
 
 -   divides two numbers and returns the **quotient only** without any decimal places
 -   **always** returns an `int`
+
+#### Modulus operator
+
+-   returns the remainder when a number is divided by another (Same as modulus in math, **not** the modulus of a complex number)
+
+    ```python
+    4 % 2       # returns 0 as there's no remainder
+    1 % 0.5     # returns 0.0 since a float is involved
+    10 % 3      # returns 1 as the remainder is 1
+    ```

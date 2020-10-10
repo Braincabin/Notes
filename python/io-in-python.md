@@ -6,6 +6,7 @@
 		- [Multiple arguments to print](#multiple-arguments-to-print)
 		- [Seperator when given multiple arguments](#seperator-when-given-multiple-arguments)
 		- [Trailing character](#trailing-character)
+		- [file argument](#file-argument)
 	- [Input](#input)
 		- [Recieve input](#recieve-input)
 		- [Recieve number input](#recieve-number-input)
@@ -52,6 +53,24 @@ Output:
 > Loading......
 
 ---
+
+#### file argument
+This argument requires a *file like* object to be given to it, the output will be *written* to this file like object
+
+By default the file-like object is `sys.stdout`, hence it prints to the *standard output* (aka console)
+
+Usage:
+
+```python
+with open('./file.txt', 'a') as f:
+	print('Hello, file', file=f)
+```
+
+Let's break this down
+-	`with open('./file.txt', 'a') as f` opens a file named `file.txt` within the current directory in *append* (add more content) mode
+-	the `as f` part in the first line says the name to be used for the variable, so that we can use it in our code
+-	`print('Hello, file', file=f)` *writes* the output to the file
+-	since we use the `with` keyword, once the block ends, `f.close` is automatically *called* (`f.close()`)
 
 ### Input
 
