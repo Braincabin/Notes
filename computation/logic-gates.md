@@ -13,6 +13,11 @@
     - [Symbol](#symbol-2)
     - [Description](#description-2)
     - [Truth table](#truth-table-2)
+  - [Nand gate](#nand-gate)
+    - [Construction](#construction)
+    - [Symbol](#symbol-3)
+    - [Description](#description-3)
+    - [Truth table](#truth-table-3)
 
 ### And gate
 
@@ -68,3 +73,28 @@
 | ----- | ------ |
 | True  | False  |
 | False | True   |
+
+
+### Nand gate
+
+#### Construction
+![Construction of a nand gate](../assets/nand-gate-construction.svg)
+
+#### Symbol
+![A nand gate](../assets/nand-gate.svg)
+
+#### Description
+-   It is constructed by placing a `not` gate directly on the output of an `and` gate
+-   Naming: Not+And = Nand
+-   This gate outputs `false` only if all the inputs are `true` and otherwise `true`
+-   Takes two or more inputs
+
+#### Truth table
+
+| Input 1 | Input 2 | Output |
+| ------- | ------- | ------ |
+| True    | True    | False  |
+| True    | False   | True   |
+| False   | True    | True   |
+| False   | False   | True   |
+
